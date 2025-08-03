@@ -9,7 +9,7 @@ body {
   margin: 0;
 }
 
-.contenedor-principal {
+contenedor-principal {
     display: flex;
     flex-direction: column;
     padding: 40px 20px;
@@ -47,13 +47,17 @@ h1 {
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    padding: 20px;
+    background-color: #ffffff45;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 @media (min-width: 768px) {
     .contenedor-forms {
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
     }
 }
 form {
@@ -1481,6 +1485,7 @@ button:hover {
     100% { background-position: 0 0; }
 
 }
+
 
 
 
