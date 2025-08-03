@@ -9,7 +9,7 @@ body {
   margin: 0;
 }
 
-contenedor-principal {
+.contenedor-principal {
     display: flex;
     flex-direction: column;
     padding: 40px 20px;
@@ -1481,5 +1481,6 @@ button:hover {
     100% { background-position: 0 0; }
 
 }
+
 
 
