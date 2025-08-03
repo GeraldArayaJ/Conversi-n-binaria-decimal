@@ -1,6 +1,3 @@
-
-
-/* prueba */
 html, body {
   height: 100%;
 }
@@ -16,6 +13,7 @@ contenedor-principal {
     display: flex;
     flex-direction: column;
     padding: 40px 20px;
+    align-items: center;
 }
 
 .contenedor-intrucciones {
@@ -1483,4 +1481,5 @@ button:hover {
     100% { background-position: 0 0; }
 
 }
+
 
